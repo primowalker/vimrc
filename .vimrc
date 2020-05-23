@@ -19,6 +19,5 @@ let myvar = strftime("%Y-%m-%d_%H.%M")
 let myvar = "set backupext=_".myvar
 execute myvar
 
-execute pathogen#infect()
 syntax on
 filetype plugin indent on
